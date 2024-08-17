@@ -1,6 +1,6 @@
-NAME		= 
-SRC			= 
-OBJ			= 
+NAME		= violence
+SRC			= main.cpp Weapon.cpp HumanA.cpp HumanB.cpp
+OBJ			= main.o Weapon.o HumanA.o HumanB.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f

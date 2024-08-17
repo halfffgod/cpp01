@@ -1,6 +1,6 @@
 NAME		= zombie
-SRC			= newZombie.cpp randomChump.cpp main.cpp
-OBJ			= newZombie.o randomChump.o main.o
+SRC			= newZombie.cpp randomChump.cpp main.cpp Zombie.cpp
+OBJ			= newZombie.o randomChump.o main.o Zombie.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f

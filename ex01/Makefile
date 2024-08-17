@@ -1,6 +1,6 @@
-NAME		= 
-SRC			= 
-OBJ			= 
+NAME		= horde
+SRC			= main.cpp Zombie.cpp zombieHorde.cpp
+OBJ			= main.o Zombie.o zombieHorde.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f

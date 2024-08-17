@@ -1,6 +1,6 @@
-NAME		= 
-SRC			= 
-OBJ			= 
+NAME		= sed
+SRC			= main.cpp replacer.cpp
+OBJ			= main.o replacer.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f

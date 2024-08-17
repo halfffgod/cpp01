@@ -1,6 +1,6 @@
-NAME		= 
-SRC			= 
-OBJ			= 
+NAME		= brain
+SRC			= main.cpp
+OBJ			= main.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f

@@ -1,6 +1,6 @@
-NAME		= 
-SRC			= 
-OBJ			= 
+NAME		= harl
+SRC			= main.cpp Harl.cpp
+OBJ			= main.o Harl.o
 CC			= g++
 FLAGS		= -Wall -Wextra -Werror -std=c++98
 RM			= rm -f
