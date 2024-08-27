@@ -5,6 +5,10 @@ void Zombie::setname(std::string name){
     this->name = name;
 }
 
+Zombie::Zombie(std::string name){
+    Zombie::setname(name);
+}
+
 Zombie::Zombie(void){
     std::cout << "Zombie created" << std::endl;
 }
