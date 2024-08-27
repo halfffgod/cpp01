@@ -1,6 +1,7 @@
 #include "replacer.hpp"
 
-int main (int ac, char **av){
+int main (int ac, char **av)
+{
     if (ac != 4){
         std::cout << "Please enter correct number of arguments" 
                   << std::endl;

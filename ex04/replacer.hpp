@@ -5,7 +5,8 @@
 #include <fstream>
 #include <iomanip>
 #include <ios>
-class Replacer{
+class Replacer
+{
     private:
         std::string _s2;
         std::string _s1;

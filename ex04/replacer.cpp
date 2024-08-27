@@ -1,6 +1,7 @@
 #include "replacer.hpp"
 
-std::string Replacer::switcher(std::string &str){
+std::string Replacer::switcher(std::string &str)
+{
     std::string res;
     size_t index = 0, finder;
     while ((finder = str.find(_s1, index)) != std::string::npos){

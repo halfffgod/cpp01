@@ -5,7 +5,8 @@
 #include <string>
 #include "Weapon.hpp"
 
-class HumanB{
+class HumanB
+{
     private:
         std::string _name;
         Weapon *tool;
