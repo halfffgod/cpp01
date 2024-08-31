@@ -2,16 +2,16 @@
 
 HumanA::HumanA(const std::string &name , Weapon &tmp): tool(tmp)
 {
-    _name = name;
+    namee = name;
 }
 
 void HumanA::attack()
 {
-    std::cout << _name << " attacks with their " 
+    std::cout << namee << " attacks with their " 
     << tool.getType() << std::endl;
 }
 
 HumanA::~HumanA(void)
 {
-    std::cout << _name << " done playing" << std::endl;
+    std::cout << namee << " done playing" << std::endl;
 }

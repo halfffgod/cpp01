@@ -3,12 +3,12 @@
 HumanB::HumanB(const std::string &name)
 {
     this->tool = NULL;
-    this->_name = name;
+    this->namee = name;
 }
 
 HumanB::~HumanB(void)
 {
-    std::cout << _name <<" has left the game" << std::endl;
+    std::cout << namee <<" has left the game" << std::endl;
 }
 
 void HumanB::setWeapon(Weapon &arm)
@@ -19,7 +19,7 @@ void HumanB::setWeapon(Weapon &arm)
 void HumanB::attack()
 {
     if (tool)
-        std::cout << _name << " attacks with their " 
+        std::cout << namee << " attacks with their " 
             << tool->getType() << std::endl;
             
 }

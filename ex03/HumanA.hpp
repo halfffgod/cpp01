@@ -8,7 +8,7 @@
 class HumanA
 {
     private:
-        std::string _name;
+        std::string namee;
         Weapon &tool;
     public:
     void attack();
